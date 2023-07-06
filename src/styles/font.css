@@ -1,0 +1,35 @@
+@font-face {
+   font-family: IranSans;
+   font-weight: 200;
+   src: url("/font/YekanBakh-Light/YekanBakh-Light.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: IranSans;
+   font-weight: 400;
+   src: url("/font/YekanBakh-Regular/YekanBakh-Regular.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: IranSans;
+   font-weight: 500;
+   src: url("/font/YekanBakh-Medium/YekanBakh-Medium.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: IranSans;
+   font-weight: 700;
+   src: url("/font/YekanBakh-Bold/YekanBakh-Bold.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: IranSans;
+   font-weight: 800;
+   src: url("/font/YekanBakh-Heavy/YekanBakh-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: IranSans;
+   font-weight: 900;
+   src: url("/font/YekanBakh-Fat/YekanBakh-Fat.ttf") format("truetype");
+}

@@ -1,0 +1,51 @@
+
+/* ==== global styles ==== */
+.Toastify__toast-container { width: fit-content !important; }
+.Toastify__toast-container {
+    width: 100vw !important ;
+    top: 0  !important;
+    padding: 0 !important;
+}
+
+.Toastify__toast { 
+    justify-content: center !important;
+    font-weight: 700 !important;
+    box-shadow: theme("boxShadow.md");
+    margin-top: 5px !important;
+    color: theme("colors.white") !important;
+    border-color: theme("colors.green.900") !important;
+    background-color: #3336478f !important;
+    backdrop-filter: blur(20px);
+}
+
+.Toastify__toast-body {
+    justify-content: center !important;
+}
+
+.Toastify__toast-body > div:last-child {
+    flex: none !important;
+}
+
+.Toastify__toast:first-child { margin-top: 0 !important; }
+
+.Toastify__progress-bar {
+    background-color: theme("colors.primary.dark") !important;
+}
+
+.Toastify__close-button { 
+    opacity: 100% !important; 
+    align-self: center !important;
+}
+
+.Toastify__close-button > svg {
+    width: 25px !important ;
+    height: 25px !important ;
+}
+
+.Toastify__toast-icon > svg {
+    display: none !important;
+}
+
+.Toastify__close-button > svg  {
+    fill: theme("colors.white") !important;
+}
